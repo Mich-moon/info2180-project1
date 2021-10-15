@@ -30,16 +30,6 @@ body {
   width: 55%;
 }
 
-header div {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-header div h1 {
-  float: left;
-}
-
 .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -76,6 +66,29 @@ header div h1 {
   align-items: center;
 }
 
+form {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+form div input {
+  grid-column: 1/2;
+}
+
+form button {
+  grid-column: 3;
+}
+
+header div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header div h1 {
+  float: left;
+}
+
 main {
   clear: both;
 }
@@ -87,6 +100,16 @@ nav ul {
 nav ul li {
   display: inline;
   margin: 10px;
+}
+
+.newsletter div {
+  width: 30%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.newsletter h3 {
+  text-align: center;
 }
 
 .overview-hero-image img {
