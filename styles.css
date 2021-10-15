@@ -61,22 +61,29 @@ body {
 
 .cta {
   grid-column: 2;
-  margin: 10% 10% 10% 0%;
-  justify-items: center;
-  align-items: center;
+  align-self: center;
+  margin: 10% 0% 10% 35%;
 }
 
+footer {
+  padding: 20px;
+}
 form {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
 form div input {
-  grid-column: 1/2;
+  grid-column: span 2;
+  align-self: center;
+  padding: 1em !important;
+  width: 550% !important;
 }
 
 form button {
   grid-column: 3;
+  align-self: center;
+  padding: 1em !important;
 }
 
 header div {
