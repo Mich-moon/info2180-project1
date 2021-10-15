@@ -46,7 +46,6 @@ header div h1 {
 }
 
 .card p {
-  grid-template-columns: repeat(2, 1fr);
   padding: 5px;
 }
 
@@ -78,4 +77,21 @@ nav ul li {
   -ms--display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.testing .container {
+  display: grid;
+  grid-template-columns: 65% 35%;
+}
+
+.testing-desciption {
+  grid-column: 1;
+  margin: 10% 10% 10% 0%;
+}
+
+.cta {
+  grid-column: 2;
+  margin: 10% 10% 10% 0%;
+  justify-items: center;
+  align-items: center;
 }
