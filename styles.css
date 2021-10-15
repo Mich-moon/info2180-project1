@@ -1,4 +1,24 @@
 /* Add your CSS to this file */
+article {
+  display: flex;
+  flex-direction: row;
+  -webkit-display: flex;
+  -moz-display: flex;
+  -ms--display: flex;
+}
+
+.article-body {
+  width: 60%;
+  margin: -25px 30px 30px 30px;
+}
+
+article img {
+  border-radius: 50%;
+  width: 20%;
+  height: 155px;
+  object-fit: cover;
+}
+
 body {
   margin: 0;
   font-size: 16px;
@@ -49,6 +69,13 @@ header div h1 {
   padding: 5px;
 }
 
+.cta {
+  grid-column: 2;
+  margin: 10% 10% 10% 0%;
+  justify-items: center;
+  align-items: center;
+}
+
 main {
   clear: both;
 }
@@ -87,11 +114,4 @@ nav ul li {
 .testing-desciption {
   grid-column: 1;
   margin: 10% 10% 10% 0%;
-}
-
-.cta {
-  grid-column: 2;
-  margin: 10% 10% 10% 0%;
-  justify-items: center;
-  align-items: center;
 }
