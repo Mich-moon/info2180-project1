@@ -12,6 +12,9 @@ article {
   margin: -25px 30px 30px 30px;
 }
 
+article h3 {
+  font: 18px;
+}
 article img {
   border-radius: 50%;
   width: 20%;
@@ -27,7 +30,7 @@ body {
 .container {
   margin: 0 auto;
   max-width: 960px;
-  width: 55%;
+  width: 60%;
 }
 
 .cards {
@@ -41,14 +44,16 @@ body {
   grid-template-rows: repeat(2, 1fr);
   padding: 1px;
   margin: 5px;
-  border-radius: 2%;
+  border-radius: 5px;
   border: 3px solid;
-  border-color: rgb(212, 212, 212);
-  box-shadow: 0px 2px 5px rgb(223, 223, 223);
+  border-color: #e2e8f0;
+  box-shadow: 0px 2px 7px #edf2f8;
 }
 
 .card h3 {
   padding: 5px;
+  color: #48bb78;
+  font-size: 21px;
 }
 
 .card img {
@@ -62,12 +67,27 @@ body {
 .cta {
   grid-column: 2;
   align-self: center;
-  margin: 10% 0% 10% 35%;
+  justify-self: center;
+  margin: 10% 0% 10% 10%;
+  width: 50%;
+  border-radius: 5px;
+  padding: 1em !important;
+  background-color: #48bb78;
+}
+
+.cta a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 1em !important;
 }
 
 footer {
   padding: 20px;
+  background-color: #4a5568;
+  color: #fff;
 }
+
 form {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -77,13 +97,26 @@ form div input {
   grid-column: span 2;
   align-self: center;
   padding: 1em !important;
-  width: 550% !important;
+  width: 500% !important;
+  border-radius: 5px;
+  border: 2px solid;
+  border-color: #8ebba1;
 }
 
 form button {
   grid-column: 3;
   align-self: center;
   padding: 1em !important;
+  background-color: #5a67d8;
+  border-radius: 5px;
+  border: 2px solid;
+  border-color: #6169b8;
+}
+
+header,
+h1 {
+  background-color: #fff;
+  font-size: 18px;
 }
 
 header div {
@@ -94,6 +127,15 @@ header div {
 
 header div h1 {
   float: left;
+}
+
+.learn-about {
+  margin-bottom: 40px;
+}
+
+.learn-about h2 {
+  color: #48bb78;
+  font-size: 24px;
 }
 
 main {
@@ -109,8 +151,22 @@ nav ul li {
   margin: 10px;
 }
 
+nav ul li a {
+  color: #6b7280;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #5a67d8;
+}
+
+.newsletter {
+  background-color: #48bb78;
+  color: #fff;
+}
+
 .newsletter div {
-  width: 30%;
+  width: 35%;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -119,9 +175,15 @@ nav ul li {
   text-align: center;
 }
 
+.overview-hero {
+  background-color: #e2e8f0;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
 .overview-hero-image img {
   border-radius: 50%;
-  width: 200px;
+  width: 150px;
   height: auto;
   margin: 20px;
 }
@@ -136,6 +198,18 @@ nav ul li {
   justify-content: center;
 }
 
+p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  font-size: 18px;
+}
+
+.testing {
+  background-color: #4a5568;
+  color: #fff;
+  margin-bottom: 50px;
+  padding-bottom: 40px;
+}
 .testing .container {
   display: grid;
   grid-template-columns: 65% 35%;
@@ -144,4 +218,13 @@ nav ul li {
 .testing-desciption {
   grid-column: 1;
   margin: 10% 10% 10% 0%;
+}
+
+.stories {
+  margin-bottom: 40px;
+}
+
+.stories h2,
+.stories a {
+  color: #5a67d8;
 }
