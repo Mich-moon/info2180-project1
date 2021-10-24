@@ -75,6 +75,10 @@ body {
   background-color: #48bb78;
 }
 
+.cta:hover {
+  background-color: #56dd8f;
+}
+
 .cta a {
   color: #fff;
   text-decoration: none;
@@ -111,6 +115,10 @@ form button {
   border-radius: 5px;
   border: 2px solid;
   border-color: #6169b8;
+}
+
+form button:hover {
+  background-color: #6675f5;
 }
 
 header,
